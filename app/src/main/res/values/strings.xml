@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Projetos ADS-2018-2</string>
+    <string name="btnSerufo">SERUFO</string>
+    <string name="btnDiogo">DIOGO</string>
+    <string name="teste">Teste Diogo</string>
+    <string name="voltar">Voltar</string>
 </resources>

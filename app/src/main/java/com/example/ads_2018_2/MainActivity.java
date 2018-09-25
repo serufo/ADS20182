@@ -28,6 +28,15 @@ public class MainActivity extends AppCompatActivity {
 
         //[SERUFO] Fim do código do SERUFO
 
+        Button btnDiogo = findViewById(R.id.btnDiogo);
+        btnDiogo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, diogoActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 }
