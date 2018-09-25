@@ -28,6 +28,19 @@ public class MainActivity extends AppCompatActivity {
 
         //[SERUFO] Fim do código do SERUFO
 
+        //[Nathanael] Codigo para mudar para pagina do Nathanael
+
+        Button btnNathanael = findViewById(R.id.btnNathanael);
+        btnNathanael.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Nathanael.class);
+                startActivity(intent);
+            }
+        });
+
+        //[Nathanael] Fim do código do Nathanael
+
 
     }
 }
