@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        //Codigo para mudar para pagina do SERUFO
+        //[SERUFO] Codigo para mudar para pagina do SERUFO
 
         Button btnSerufo = findViewById(R.id.btnSerufo);
         btnSerufo.setOnClickListener(new View.OnClickListener() {
@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        //[SERUFO] Fim do código do SERUFO
 
 
     }
