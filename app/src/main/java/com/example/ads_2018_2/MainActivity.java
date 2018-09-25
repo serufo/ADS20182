@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //[SERUFO] Fim do código do SERUFO
-       // sou preguiçoso
+       // sou preguiçoso uma ova
 
 
     }
