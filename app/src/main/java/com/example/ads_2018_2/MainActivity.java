@@ -28,6 +28,18 @@ public class MainActivity extends AppCompatActivity {
 
         //[SERUFO] Fim do código do SERUFO
 
+        Button btnjean = findViewById(R.id.btnjean);
+        btnjean.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, jeanDouglas.class);
+                startActivity(intent);
+
+            }
+        }
+
+        );
+
 
     }
 }
