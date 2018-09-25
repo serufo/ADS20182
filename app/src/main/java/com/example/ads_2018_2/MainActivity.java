@@ -26,6 +26,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //[Victor] Fim do código do Victor
+
+        //[Victor] Codigo para mudar para pagina do Victor
+
+        Button btnVictorVieira = findViewById(R.id.btnVictorVieira);
+        btnVictorVieira.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, atvvictor2.class);
+                startActivity(intent);
+            }
+        });
+
         //[SERUFO] Fim do código do SERUFO
 
         Button btnDiogo = findViewById(R.id.btnDiogo);
@@ -36,6 +49,18 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+        //[Marcos] Meu código
+        Button btnMarcos = findViewById(R.id.btnMarcos);
+        btnMarcos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Marcos.class);
+                startActivity(intent);
+            }
+        });
+
 
 
     }
