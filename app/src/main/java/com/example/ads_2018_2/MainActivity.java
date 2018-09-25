@@ -17,11 +17,11 @@ public class MainActivity extends AppCompatActivity {
 
         //[SERUFO] Codigo para mudar para pagina do SERUFO
 
-        Button btnSerufo = findViewById(R.id.btnSerufo);
+        Button btnSerufo = findViewById(R.id.btnNatanael);
         btnSerufo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Serufo.class);
+                Intent intent = new Intent(MainActivity.this,Natanael.class);
                 startActivity(intent);
             }
         });
