@@ -28,6 +28,18 @@ public class MainActivity extends AppCompatActivity {
 
         //[SERUFO] Fim do código do SERUFO
 
+        //[AlunaAnaCota] Codigo para mudar para pagina da Ana Cota
+
+        Button btnAnaCota = findViewById(R.id.btnSerufo);
+        btnAnaCota.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, AlunaAnaCota.class);
+                startActivity(intent);
+            }
+        });
+
+        //[AlunaAnaCota] Fim do código da Ana Cota
 
     }
 }
