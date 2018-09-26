@@ -18,7 +18,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".ProfSerufo" />
-        <activity android:name=".diogoActivity"></activity>
+<<<<<<< HEAD
+        <activity
+            android:name=".RONALDO"
+            android:label="@string/title_activity_ronaldo"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+=======
+        <activity android:name=".atvvictor2"></activity>
+>>>>>>> origin/master
     </application>
 
 </manifest>

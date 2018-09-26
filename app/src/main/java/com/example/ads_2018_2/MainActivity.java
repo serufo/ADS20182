@@ -17,26 +17,49 @@ public class MainActivity extends AppCompatActivity {
 
         //[SERUFO] Codigo para mudar para pagina do SERUFO
 
-        /*Button btnSerufo = findViewById(R.id.btnSerufo);
+        Button btnSerufo = findViewById(R.id.btnSerufo);
         btnSerufo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Serufo.class);
                 startActivity(intent);
             }
-        });*/
+        });
 
-        //[SERUFO] Fim do código do SERUFO
+        //[Victor] Fim do código do Victor
 
-        Button btnjean = findViewById(R.id.btnjean);
-        btnjean.setOnClickListener (new View.OnClickListener() {
+        //[Victor] Codigo para mudar para pagina do Victor
+
+        Button btnVictorVieira = findViewById(R.id.btnVictorVieira);
+        btnVictorVieira.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, jeanDouglas.class);
+                Intent intent = new Intent(MainActivity.this, atvvictor2.class);
                 startActivity(intent);
-
             }
         });
+
+        //[ ronaldo]
+        Button btnRONALDO = findViewById(R.id.btnRONALDO);
+        btnRONALDO.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, RONALDO.class);
+                startActivity(intent);
+            }
+        });
+
+
+        //[Marcos] Meu código
+        Button btnMarcos = findViewById(R.id.btnMarcos);
+        btnMarcos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Marcos.class);
+                startActivity(intent);
+            }
+        });
+
 
 
     }
