@@ -18,6 +18,8 @@ public class Marcos extends AppCompatActivity {
         btnVoltar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                
+                //[SERUFO] Voce esta na activity Marcos e passando como paramentro a Activity Serufo
                 Intent intent = new Intent(Serufo.this, MainActivity.class);
                 startActivity(intent);
             }
