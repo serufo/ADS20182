@@ -18,7 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ProfSerufo" />
-        <activity android:name=".diogoActivity"></activity>
+        <activity android:name=".ActivityCaio"></activity>
     </application>
 
 </manifest>
