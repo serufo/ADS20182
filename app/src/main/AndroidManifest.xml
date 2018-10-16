@@ -18,6 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ProfSerufo" />
+        <activity android:name=".allef" />
+        <activity android:name=".allefact"></activity>
     </application>
 
 </manifest>
