@@ -28,12 +28,12 @@ public class MainActivity extends AppCompatActivity {
 
         //[SERUFO] Fim do código do SERUFO
 
-        Button btnjean = findViewById(R.id.btnjean);
-        btnjean.setOnClickListener (new View.OnClickListener() {
+        Button btnLucas = findViewById(R.id.btnLucas);
+        btnLucas.setOnClickListener (new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, jeanDouglas.class);
-                startActivity(intent);
+                Intent abrirtelaLucas = new Intent(getApplicationContext(), LucasSoares.class);
+                startActivity(abrirtelaLucas);
 
             }
         });
