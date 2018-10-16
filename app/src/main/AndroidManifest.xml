@@ -18,7 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ProfSerufo" />
-        <activity android:name=".Natanael"></activity>
+        <activity android:name=".Natanael" />
+        <activity android:name=".Ariel"></activity>
     </application>
 
 </manifest>
