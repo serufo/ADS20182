@@ -6,24 +6,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Marcos extends AppCompatActivity {
+public class RamonFerreira extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_marcos);
+        setContentView(R.layout.activity_ramon_ferreira);
 
-        //Botao voltar
-        Button btnVoltar = findViewById(R.id.btnVoltar);
-        btnVoltar.setOnClickListener(new View.OnClickListener() {
+        Button btnramon = findViewById(R.id.button2);
+            btnramon.setOnClickListener (new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                
-                //[SERUFO] Voce esta na activity Marcos e passando como paramentro a Activity Serufo
-                Intent intent = new Intent(Serufo.this, MainActivity.class);
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(intent);
+
             }
         });
-
     }
 }
