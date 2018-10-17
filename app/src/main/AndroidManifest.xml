@@ -19,8 +19,6 @@
             </intent-filter>
         </activity>
 
-
-       
         <activity android:name=".diogoActivity" /></activity>
         <activity android:name=".LucasSOares" /></activity>
         <activity android:name=".LeandroNeves"></activity>
@@ -31,6 +29,7 @@
 
         <activity android:name=".diogoActivity" /></activity>
         <activity android:name=".RamonFerreira"></activity>
+
 
 
     </application>
