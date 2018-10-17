@@ -19,6 +19,9 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".AzemarFelex"></activity>
+
+
         <activity android:name=".diogoActivity" /></activity>
         <activity android:name=".LucasSOares" /></activity>
         <activity android:name=".LeandroNeves"></activity>
