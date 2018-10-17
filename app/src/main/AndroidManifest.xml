@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".AlunoWashingtonMinas"></activity>
         <activity android:name=".Serufo" />
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -17,8 +18,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ProfSerufo" />
+
         <activity android:name=".AzemarFelex"></activity>
+
+
+        <activity android:name=".diogoActivity" /></activity>
+        <activity android:name=".LucasSOares" /></activity>
+        <activity android:name=".LeandroNeves"></activity>
+
+        <activity android:name=".ProfSerufo" /></activity>
+
+        <activity android:name=".Serufo2"></activity>
+
+        <activity android:name=".diogoActivity" /></activity>
+        <activity android:name=".RamonFerreira"></activity>
+
+
+
     </application>
 
 </manifest>
