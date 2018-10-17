@@ -17,6 +17,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+       
+        <activity android:name=".diogoActivity" /></activity>
+        <activity android:name=".LucasSOares" /></activity>
+        <activity android:name=".LeandroNeves"></activity>
+
         <activity android:name=".ProfSerufo" /></activity>
 
         <activity android:name=".Serufo2"></activity>

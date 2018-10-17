@@ -29,6 +29,14 @@ public class MainActivity extends AppCompatActivity {
         //[SERUFO] Fim do código do SERUFO
 
 
+        Button btnLeandro = findViewById(R.id.btnLeandro);
+        btnLeandro.setOnClickListener (new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent abrirtelaLucas = new Intent(getApplicationContext(), LeandroNeves.class);
+                startActivity(abrirtelaLucas);
+
+
         //[SERUFO2] Codigo para mudar para pagina do SERUFO2
 
         Button btnSerufo2 = findViewById(R.id.btnSerufo2);
@@ -54,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, RamonFerreira.class);
                 startActivity(intent);
+
 
             }
         });
