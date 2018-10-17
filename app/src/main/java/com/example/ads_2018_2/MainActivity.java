@@ -17,14 +17,14 @@ public class MainActivity extends AppCompatActivity {
 
         //[SERUFO] Codigo para mudar para pagina do SERUFO
 
-        Button btnSerufo = findViewById(R.id.btnSerufo);
+        /*Button btnSerufo = findViewById(R.id.btnSerufo);
         btnSerufo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Serufo.class);
                 startActivity(intent);
             }
-        });
+        });*/
 
         //[SERUFO] Fim do código do SERUFO
 
@@ -40,6 +40,45 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //[SERUFO] Fim do código do SERUFO
+
+
+        Button btnLeandro = findViewById(R.id.btnLeandro);
+        btnLeandro.setOnClickListener (new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent abrirtelaLucas = new Intent(getApplicationContext(), LeandroNeves.class);
+                startActivity(abrirtelaLucas);
+
+
+        //[SERUFO2] Codigo para mudar para pagina do SERUFO2
+
+        Button btnSerufo2 = findViewById(R.id.btnSerufo2);
+        btnSerufo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Serufo2.class);
+                startActivity(intent);
+            }
+        });
+
+        //[SERUFO2] Fim do código do SERUFO2
+
+
+        //[Marcos] Meu código
+        Button btnMarcos = findViewById(R.id.btnMarcos);
+        btnMarcos.setOnClickListener(new View.OnClickListener() {
+
+        Button btnjean = findViewById(R.id.btnramon);
+        btnjean.setOnClickListener (new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, RamonFerreira.class);
+                startActivity(intent);
+
+
+            }
+        });
 
 
     }
