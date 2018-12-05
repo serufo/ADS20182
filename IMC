@@ -1,0 +1,46 @@
+package datadenascimento.facisa.aula.com.datadenacimento;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextClock;
+import android.widget.TextView;
+
+import imc.facisa.aula.com.imc.R;
+
+public class MainActivity extends AppCompatActivity {
+
+
+    private TextView resultadoTexto;
+    private EditText alturaTexto;
+    private EditText pesoTexto;
+    private Button botao;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        resultadoTexto = findViewById(R.id.resultadoid);
+        alturaTexto = findViewById(R.id.alturaid);
+        pesoTexto = findViewById(R.id.pesoid);
+        botao = findViewById(R.id.botaoid);
+
+        botao.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                String peso = pesoTexto.getText().toString();
+                String altura = alturaTexto.getText().toString();
+                Double resultadopeso = Double.parseDouble(peso);
+                Double resultadoaltura = Double.parseDouble(altura);
+
+                Double totalImc = resultadopeso / resultadoaltura * resultadoaltura;
+                resultadoTexto.setText("Seu IMC e "+ totalImc);
+
+            }
+        });
+
+    }
